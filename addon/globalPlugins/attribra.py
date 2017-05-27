@@ -1,3 +1,8 @@
+#AttriBra Addon for NVDA
+#This file is covered by the GNU General Public License.
+#See the file COPYING for more details.
+#Copyright (C) 2017 Alberto Zanella <lapostadialberto@gmail.com>
+
 import globalPluginHandler
 import appModuleHandler
 import braille
