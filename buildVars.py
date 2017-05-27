@@ -21,7 +21,7 @@ addon_info = {
 	# version
 	"addon_version" : "0.1",
 	# Author(s)
-	"addon_author" : u"name <name@domain.com>",
+	"addon_author" : u"Alberto Zanella <lapostadialberto@gmail.com>",
 	# URL for the add-on documentation support
 	"addon_url" : None,
 	# Documentation file name
