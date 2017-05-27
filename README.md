@@ -52,9 +52,9 @@ After that, toggle this option off and review the log from the NVDA tools menu.
 Identify the property you want to mark and report it in the attribra configuration file.
 
 
-##Add-On Shortcuts:
+## Add-On Shortcuts:
 * **NVDA+Control+B**: Open the attribra.ini file with your default INI editor
 * **NVDA+Control+Shift+B**: Toggle debug logging on or / off
 
-##Author
+## Author
 Alberto Zanella <lapostadi[myfirstname]#gmail.com>
