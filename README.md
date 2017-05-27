@@ -46,15 +46,15 @@ bold = 1
 Marks bold text in all applications excepts firefox, eclipse and winword for which a specific configuration exists
 
 To determine the name and the value of the rules you need, you can use the "debug mode".
-To toggle debug mode press **Control+Shift+NVDA+B**
+To toggle debug mode press **Control+Shift+NVDA+A**
 This will log all the information about the text while you move around. Pleas usse this option carefully and only for a short amount of time, for instance when you have already located a text with the pattern you want to be marked.
 After that, toggle this option off and review the log from the NVDA tools menu.
 Identify the property you want to mark and report it in the attribra configuration file.
 
 
 ## Add-On Shortcuts:
-* **NVDA+Control+B**: Open the attribra.ini file with your default INI editor
-* **NVDA+Control+Shift+B**: Toggle debug logging on or / off
+* **NVDA+Control+A**: Open the attribra.ini file with your default INI editor
+* **NVDA+Control+Shift+A**: Toggle debug logging on or / off
 
 ## Author
 Alberto Zanella <lapostadi[myfirstname]#gmail.com>
