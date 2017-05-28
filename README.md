@@ -1,6 +1,8 @@
 # attribra
 NVDA Add-On that adds Braille Attributes capability
 
+[Download attribra development release](https://github.com/albzan/attribra/releases/download/dev/attribra-dev.nvda-addon)
+
 This NVDA Add-On gives the possibility to the user to define custom rules to mark text with special fields option with braille dots 7 and 8.
 In short you can mark bold, italic, specific foreground or background colors etc. using dots 7 and 8 of your refreshable braille display.
 
