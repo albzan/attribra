@@ -6,7 +6,7 @@ NVDA Add-On that adds Braille Attributes capability
 This NVDA Add-On gives the possibility to the user to define custom rules to mark text with special fields option with braille dots 7 and 8.
 In short you can mark bold, italic, specific foreground or background colors etc. using dots 7 and 8 of your refreshable braille display.
 
-When I tried to switch to NVDA as my former screen reader, I've found that Braille Attributes were missing.
+When I tried to switch to NVDA as my primary screen reader, I've found that Braille Attributes were missing.
 Since I'm a prolificient braille user, I tried to open an issue here:
 https://github.com/nvaccess/nvda/issues/3022
 
