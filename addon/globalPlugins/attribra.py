@@ -19,7 +19,7 @@ ATTRS = {}
 logTextInfo = False
 
 def decorator(fn,str) :
-    def _getTypeformFromFormatField(self, field):
+    def _getTypeformFromFormatField(self, field, formatConfig):
         #convention: to mark we put 4 (bold for liblouis)
         for attr,value in ATTRS.iteritems() :
             fval = field.get(attr,False)
