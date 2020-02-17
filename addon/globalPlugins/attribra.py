@@ -21,7 +21,7 @@ logTextInfo = False
 def decorator(fn,str) :
     def _getTypeformFromFormatField(self, field, formatConfig):
         #convention: to mark we put 4 (bold for liblouis)
-        for attr,value in ATTRS.iteritems() :
+        for attr,value in ATTRS.items() :
             fval = field.get(attr,False)
             if fval in value :
                 return 4
@@ -45,7 +45,7 @@ def decorator(fn,str) :
         fn(self)
         DOT7 = 64
         DOT8 = 128
-        for i in xrange(0,len(self.rawTextTypeforms)) :
+        for i in range(0,len(self.rawTextTypeforms)) :
             if self.rawTextTypeforms[i] == 4 :
                 self.brailleCells[i] |= DOT7 | DOT8
 
@@ -96,7 +96,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
             for app,map in config.iteritems() :
                 mappings = {}
                 for name,value in map.iteritems() :
-                    if isinstance(value,basestring) :
+                    if isinstance(value,str) :
                         if value.startswith("RGB(") : #it's an RGB Object
                             rgbval = value.split("RGB(")[1]
                             rgbval = rgbval.split(")")[0]
